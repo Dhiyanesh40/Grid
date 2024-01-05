@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Complete Form</title>
+</head>
+<body>
+
+<h2>Complete Form:</h2>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  <br><br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" placeholder="Enter your password" required>
+  <br><br>
+  <label for="reenterPassword">Reenter Password:</label>
+  <input type="password" id="reenterPassword" name="reenterPassword" placeholder="Reenter your password" required>
+  <br><br>
+  <label for="gender">Gender:</label><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender" value="male" required><br>
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <br><br>
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob" required>
+  <br><br>
+  <label>Hobbies:</label><br>
+  <input type="checkbox" name="hobbies">Reading<br>
+  <input type="checkbox" name="hobbies">Sports<br>
+  <input type="checkbox" name="hobbies">Music<br>
+  <br><br>
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address" rows="5" cols="20" placeholder="Enter your address" required></textarea>
+  <br><br>
+  <label for="file">Choose File:</label>
+  <input type="file" id="file" name="file">
+  <br><br>
+  <label for="courses">Select Course:</label>
+  <select id="courses" name="courses" required>
+    <option value="course1">AIDS</option>
+    <option value="course2">ECE</option>
+    <option value="course3">BME</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
